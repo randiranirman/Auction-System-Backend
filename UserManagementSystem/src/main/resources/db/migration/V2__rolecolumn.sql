@@ -1,0 +1,4 @@
+ALTER TABLE users
+    ADD COLUMN role VARCHAR(255),
+ADD COLUMN created_at DATE,
+ADD COLUMN updated_at DATE;
